@@ -1,4 +1,5 @@
 <?php
+  // SET DATABASE VARIABLES
   $host = 'localhost';
   $user = 'root';
   $password = '123456';
