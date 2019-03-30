@@ -58,6 +58,7 @@
   // $stmt->execute(['id' => $id]);
   // $post = $stmt->fetch();
 
+  // DISPLAY THE BODY TEXT FROM THE POST
   // echo $post->body;
 
   // GET ROW COUNT
