@@ -47,7 +47,7 @@
   // $stmt->execute(['author' => $author, 'is_published' => $is_published]);
   // $posts = $stmt->fetchAll();
 
-  // // LOOP THROUGH RESULTS
+  // // USER FOREACH TO LOOP THROUGH RESULTS
   foreach($posts as $post){
     echo $post->title . '<br>';
   }
