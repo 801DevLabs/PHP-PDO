@@ -41,7 +41,7 @@
   $stmt->execute([$author, $is_published, $limit]);
   $posts = $stmt->fetchAll();
 
-  // NAMED PARAMS
+  // SET NAMED PARAMS
   // $sql = "SELECT * FROM posts WHERE author = :author AND is_published = :is_published";
   // $stmt = $pdo->prepare($sql);
   // $stmt->execute(['author' => $author, 'is_published' => $is_published]);
