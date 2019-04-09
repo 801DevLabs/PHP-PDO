@@ -35,7 +35,7 @@
   $id = 1;
   $limit = 1;
 
-  // POSITIONAL PARAMS
+  // SET POSITIONAL PARAMS
   $sql = "SELECT * FROM posts WHERE author = ? AND is_published = ? LIMIT ?";
   $stmt = $pdo->prepare($sql);
   $stmt->execute([$author, $is_published, $limit]);
